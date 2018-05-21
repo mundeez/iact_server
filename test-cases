@@ -1,0 +1,44 @@
+1. code registration: School register, Learner register
+
+2. Textual registration: Learner detail register
+
+3. School registration: School detail register
+
+4. Weekly test: Learner register, update learner
+
+5. Sample test: Learner register, update learner
+
+6. Post test: Learner register, update learner
+
+7. Pre test: Learner register, update learner
+
+8. School visit report: School register, School update
+
+9. Follower registration: Follower register
+
+10. help: 
+
+
+
+
+Marlon Phiri as District Coordinator, District Lusaka and NRC # 222705/16/1 Cell # +260950765265; 
+Mubu Kalaluka NRC # 656329/11/1 as Zonal Follower, Malambanyama Zone with Cell # +260965846177; 
+Chishimba Namutenda NRC # 108293/10/1 as District Coordinator, District Kafue and Cell +260979515216
+
+
+"email": "Marlon@rocsweb.com",
+"user_category": "CO",
+"follower_category": "NA",
+"firstname": "Marlon",
+"Initials": "M",
+"lastname": "Kalaluka",
+"man": "1234567890",
+"nrc": "656329111",
+"gender": "M",
+"position": "rocs",
+"organisation": "Tekeniko",
+"function": "rocs",
+"province": "Lusaka",
+"district": "Lusaka",
+"zone": "Muleya",
+"contact_number": "+0965846177"

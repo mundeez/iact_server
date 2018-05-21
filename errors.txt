@@ -1,0 +1,2 @@
+undefined, with EMIS 3345713 already exists in the system!
+if any of the codes os sent first then the learner should be registered

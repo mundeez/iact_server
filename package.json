@@ -1,0 +1,36 @@
+{
+  "name": "rocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "basic-auth": "^2.0.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "bson": "^1.0.4",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.1.0",
+    "luhn": "^2.1.0",
+    "mongoose": "^5.0.0-rc0",
+    "nodemon": "^1.15.0",
+    "notp": "^2.0.3",
+    "otplib": "^7.0.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "wait-until": "0.0.2"
+  },
+  "devDependencies": {
+    "gulp-env": "^0.2.0",
+    "gulp-util": "^3.0.8",
+    "supertest": "^0.15.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": ""
+}
