@@ -138,32 +138,32 @@ let trafficController = function (Traffic) {
                                         switch (parseInt(traffic.message.substr(10, 2)) % 5) {
                                             case 1:
                                                 update = {
-                                                    m1w1_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m1w1_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m1w1_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m1w1_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 2:
                                                 update = {
-                                                    m1w2_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m1w2_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m1w2_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m1w2_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 3:
                                                 update = {
-                                                    m1w3_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m1w3_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m1w3_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m1w3_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 4:
                                                 update = {
-                                                    m1w4_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m1w4_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m1w4_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m1w4_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 0:
                                                 update = {
-                                                    m1w5_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m1w5_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m1w5_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m1w5_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                         }
@@ -172,32 +172,32 @@ let trafficController = function (Traffic) {
                                         switch (parseInt(traffic.message.substr(10, 2)) % 5) {
                                             case 1:
                                                 update = {
-                                                    m2w1_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m2w1_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m2w1_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m2w1_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 2:
                                                 update = {
-                                                    m2w2_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m2w2_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m2w2_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m2w2_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 3:
                                                 update = {
-                                                    m2w3_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m2w3_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m2w3_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m2w3_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 4:
                                                 update = {
-                                                    m2w4_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m2w4_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m2w4_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m2w4_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 0:
                                                 update = {
-                                                    m2w5_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m2w5_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m2w5_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m2w5_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                         }
@@ -206,32 +206,32 @@ let trafficController = function (Traffic) {
                                         switch (parseInt(traffic.message.substr(10, 2)) % 5) {
                                             case 1:
                                                 update = {
-                                                    m3w1_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m3w1_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m3w1_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m3w1_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 2:
                                                 update = {
-                                                    m3w2_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m3w2_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m3w2_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m3w2_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 3:
                                                 update = {
-                                                    m3w3_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m3w3_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m3w3_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m3w3_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 4:
                                                 update = {
-                                                    m3w4_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m3w4_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m3w4_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m3w4_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 0:
                                                 update = {
-                                                    m3w5_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m3w5_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m3w5_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m3w5_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                         }
@@ -240,32 +240,32 @@ let trafficController = function (Traffic) {
                                         switch (parseInt(traffic.message.substr(10, 2)) % 5) {
                                             case 1:
                                                 update = {
-                                                    m4w1_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m4w1_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m4w1_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m4w1_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 2:
                                                 update = {
-                                                    m4w2_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m4w2_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m4w2_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m4w2_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 3:
                                                 update = {
-                                                    m4w3_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m4w3_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m4w3_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m4w3_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 4:
                                                 update = {
-                                                    m4w4_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m4w4_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m4w4_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m4w4_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                             case 0:
                                                 update = {
-                                                    m4w5_pass1: parseInt(traffic.message.substr(14, 1)),
-                                                    m4w5_pass2: parseInt(traffic.message.substr(15, 1))
+                                                    m4w5_pass1: parseInt(traffic.message.substr(12, 1)),
+                                                    m4w5_pass2: parseInt(traffic.message.substr(13, 1))
                                                 }
                                                 break;
                                         }

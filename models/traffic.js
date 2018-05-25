@@ -53,8 +53,8 @@ trafficModel.methods.computeCode = function () {
     if (Number.isInteger(parseInt(this.message.substring(0, 1))) && parseInt(this.message.substring(0, 1)) != 3) {
         this.contactAuthorisation = "authorized";
     }
-    if (luhn.validate(this.message. replace(/-/g, "").replace(/o/g, "0").replace(/O/g, 0).replace(/I/g, "1").replace(/q/g, "9"))) {
-        this.message = this.message.replace(/-/g, "").replace(/o/g, "0").replace(/O/g, 0).replace(/I/g, "1").replace(/q/g, "9");
+    if (luhn.validate(this.message. replace(/-/g, "").replace(/\s/g, "").replace(/_/g, "").replace(/o/g, "0").replace(/O/g, 0).replace(/I/g, "1").replace(/q/g, "9"))) {
+        this.message = this.message.replace(/-/g, "").replace(/\s/g, "").replace(/_/g, "").replace(/o/g, "0").replace(/O/g, 0).replace(/I/g, "1").replace(/q/g, "9");
         switch (this.message.substring(0, 1)) {
             case "1": //Registration
                 this.contactAuthorisation = "authorized";
